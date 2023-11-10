@@ -45,7 +45,7 @@ export default class Bootstrap extends React.Component {
                 </Card>
 
                 <Card style={{ width: '18rem' }} className="col">
-                <Card.Img variant="top" src={require('./asset/message.jpg')} />
+                <Card.Img variant="top" src={require('./asset/message.jpg')} className="" />
                     <Card.Body>
                         <Card.Title>Messaging System</Card.Title>
                         <Card.Text>
