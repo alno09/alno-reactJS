@@ -1,6 +1,7 @@
 import React from "react";
+import BeritaKita from "./hook";
 // import BeritaComponent from "./lifecycle";
-import NewsComponent from "./lifecycle/indax";
+// import NewsComponent from "./lifecycle/indax";
 // import ClassComponent from "./javascript/classcomponent";
 // import FunctionalComponent from "./javascript/functionalcomponent";
 // import Bootstrap from "./bootstrap";
@@ -12,7 +13,7 @@ export default class Komponen extends React.Component {
     render() {
         return (
             <div>
-                <NewsComponent />
+                <BeritaKita />
             </div>
         )
     }
