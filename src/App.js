@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import Komponen from "./tugas";
+import Redux from './redux';
 
 function App() {
   return (
     <div className="App">
-        <Komponen />
+        <Redux />
     </div>
   );
 }
